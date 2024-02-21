@@ -8,11 +8,16 @@ let specials = window.confirm('Would you like to include symbols on your passwor
 let uppercase = window.confirm('Would you like to include uppercase letters in your password?');
 let lowercase = window.confirm('Would you like to include lowercase letters in your password?');
 
+if (numbers === false && specials === false && uppercase === false & lowercase === false) {
+  alert('Your password does not meet the required criteria, you must select at least one option')
+}
+
 //options for password criteria//
 var numbers2 = '0123456789'
 var SpecialSymbols = '!@#$%^&*()+=?<\>-'
 var uppercaseAlphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
 var lowercaseAlphabet = 'abcdefghijklmnopqrstuvwxyz';
+
 
 
 
