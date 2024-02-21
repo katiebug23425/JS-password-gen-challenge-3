@@ -1,3 +1,6 @@
+// Assignment Code
+var generateBtn = document.querySelector("#generate");
+
 //Criteria selection for password//
 let length = window.prompt('How many characters would you like your password to be?');
 if (length < 8 || length > 128) {
@@ -17,12 +20,6 @@ var numbers2 = '0123456789'
 var SpecialSymbols = '!@#$%^&*()+=?<\>-'
 var uppercaseAlphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
 var lowercaseAlphabet = 'abcdefghijklmnopqrstuvwxyz';
-
-
-
-
-// Assignment Code
-var generateBtn = document.querySelector("#generate");
 
 // Write password to the #password input
 function writePassword() {
