@@ -1,3 +1,16 @@
+//Criteria selection for password//
+let length = window.prompt('How many characters would you like your password to be?');
+if (length < 8 || length > 128) {
+  alert("Your password must be between 8 and 128 characters");
+};
+let numbers = window.confirm('Would you like to include numbers in your password?');
+let specials = window.confirm('Would you like to include symbols on your password?');
+let uppercase = window.confirm('Would you like to include uppercase letters in your password?');
+let lowercase = window.confirm('Would you like to include lowercase letters in your password?');
+
+
+
+
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
 
