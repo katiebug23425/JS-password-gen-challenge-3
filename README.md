@@ -15,3 +15,5 @@ Once the options have been chosen the code will generate a random password for t
 ## Link to finished app:
 
 ## Credits
+
+Tutor Charles Puente-Matos assisted me with debugging and code on 2/22/24 
