@@ -11,6 +11,9 @@ By writing prompt, alert and confirm code boxes we are able to offer a variety o
 Once the options have been chosen the code will generate a random password for the end user after validating the chosen criteria. This allows for the user to create a variety of password types, lengths and character sets so they will never have to repeat a password again! 
 
 ## Screenshot
+![screenshot for password generator application] (./Images/Screenshot 2024-02-22 144143.png)
+
+![second screenshot for password generator application] (./Images/Screenshot 2024-02-22 144654.png)
 
 ## Link to finished app:
 
