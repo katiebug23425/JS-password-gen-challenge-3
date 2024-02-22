@@ -48,6 +48,8 @@ if (lowercase === true) { master += lowercaseAlphabet
 
 };
 
+//user input collection and generated password display
+
 var password2 = ''
 for (i=0; i < length; i++) {
  var Random = Math.floor(Math.random() * master.length)
